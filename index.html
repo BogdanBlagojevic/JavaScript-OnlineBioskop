@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Bioskop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Online Bioskop</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Serije</h2>
+
+			<div class="single-item">
+				<img src="img/slika1.jpg">
+				<div class="si-content">
+					<h3>Wednesday</h3>
+          <img class="img" src="img/Zvezdice.png">
+          <p> cena:</p>
+					<p class="price">$10</p>
+				</div>
+				<div class="actions">
+				
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/slika2.jpg">
+				<div class="si-content">
+					<h3>vikings valhalla</h3>
+          <img class="img" src="img/zvezdice2.png">
+          
+          <p> cena:</p>
+					<p class="price">$20</p>
+				</div>
+				<div class="actions">
+				
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/slika3.jpg">
+				<div class="si-content">
+					<h3>The last of us</h3>
+          <img class="img" src="img/zvezdice3.png">
+          <p> cena:</p>
+					<p class="price">$30</p>
+				</div>
+				<div class="actions">
+				
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
